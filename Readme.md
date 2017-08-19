@@ -16,7 +16,7 @@ Alt+Shift+X toggles the debugging state.
 How to install this extension?
 ------------------------------
 **Stable version:** Go to the [Firefox Addons](https://addons.mozilla.org/en-GB/firefox/)
-and click "Add to Chrome".
+and click "Add to Firefox".
 
 **Development version:** [Download the source from GitHub](https://github.com/BrianGilbert/xdebug-helper-for-firefox/archive/master.zip)
 and [load the extension into Firefox](https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Temporary_Installation_in_Firefox)
