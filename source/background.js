@@ -1,5 +1,10 @@
 chrome.tabs.onUpdated.addListener(function(tabId, changeInfo, tab)
 {
+    // Only show icon on http/https pages.
+	if (!tab.url.match(/^about:/)) {
+        browser.pageAction.show(tab.id);
+    }
+
 	// We only react on a complete load of a http(s) page,
 	//  only then we're sure the content.js is loaded.
 	if (changeInfo.status !== "complete" || tab.url.indexOf("http") !== 0)
@@ -127,32 +132,32 @@ function updateIcon(status, tabId)
 {
 	// Figure the correct title/image with the given state
 	var title = "Debugging, profiling & tracing disabled",
-		image = "images/bug-gray.png";
+		image = "images/bug-gray.svg";
 
 	if (status == 1)
 	{
 		title = "Debugging enabled";
-		image = "images/bug.png";
+		image = "images/bug-green.svg";
 	}
 	else if (status == 2)
 	{
 		title = "Profiling enabled";
-		image = "images/clock.png";
+		image = "images/clock.svg";
 	}
 	else if (status == 3)
 	{
 		title = "Tracing enabled";
-		image = "images/script.png";
+		image = "images/script.svg";
 	}
 
 	// Update title
-	chrome.browserAction.setTitle({
+	chrome.pageAction.setTitle({
 		tabId: tabId,
 		title: title
 	});
 
 	// Update image
-	chrome.browserAction.setIcon({
+	chrome.pageAction.setIcon({
 		tabId: tabId,
 		path: image
 	});
