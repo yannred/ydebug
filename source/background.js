@@ -1,7 +1,7 @@
 chrome.tabs.onUpdated.addListener(function(tabId, changeInfo, tab)
 {
     // Only show icon on http/https pages.
-	if (!tab.url.match(/^about:/|/^moz-extension:/)) {
+	if (!tab.url.match(/^about:|^moz-extension:/)) {
         browser.pageAction.show(tab.id);
     }
 
