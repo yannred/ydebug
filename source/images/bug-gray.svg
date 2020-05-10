@@ -1,7 +1,14 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg width="100%" height="100%" viewBox="0 0 32 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
-    <g transform="matrix(1,0,0,1,-8,-6)">
-        <path d="M40,16L34.38,16C33.48,14.44 32.24,13.09 30.75,12.08L34,8.83L31.17,6L26.82,10.35C25.92,10.13 24.97,10 24,10C23.03,10 22.08,10.13 21.18,10.35L16.83,6L14,8.83L17.25,12.08C15.76,13.09 14.52,14.44 13.62,16L8,16L8,20L12.18,20C12.07,20.65 12,21.32 12,22L12,24L8,24L8,28L12,28L12,30C12,30.68 12.07,31.35 12.18,32L8,32L8,36L13.62,36C15.69,39.58 19.56,42 24,42C28.44,42 32.31,39.58 34.38,36L40,36L40,32L35.82,32C35.93,31.35 36,30.68 36,30L36,28L40,28L40,24L36,24L36,22C36,21.32 35.93,20.65 35.82,20L40,20L40,16ZM28,32L20,32L20,28L28,28L28,32ZM28,24L20,24L20,20L28,20L28,24Z" style="fill:rgb(178,178,178);fill-rule:nonzero;"/>
-    </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 288 288" style="enable-background:new 0 0 288 288;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#B2B2B2;}
+</style>
+<g transform="matrix(1,0,0,1,-8,-6)">
+	<path class="st0" d="M279,86h-45c-7.2-12.5-17.1-23.3-29-31.4l26-26L208.4,6l-34.8,34.8C166.4,39,158.8,38,151,38s-15.4,1-22.6,2.8
+		L93.6,6L71,28.6l26,26C85.1,62.7,75.2,73.5,68,86H23v32h33.4c-0.9,5.2-1.4,10.6-1.4,16v16H23v32h32v16c0,5.4,0.6,10.8,1.4,16H23v32
+		h45c16.6,28.6,47.5,48,83,48s66.5-19.4,83-48h45v-32h-33.4c0.9-5.2,1.4-10.6,1.4-16v-16h32v-32h-32v-16c0-5.4-0.6-10.8-1.4-16H279
+		V86z M183,214h-64v-32h64V214z M183,150h-64v-32h64V150z"/>
+</g>
 </svg>
