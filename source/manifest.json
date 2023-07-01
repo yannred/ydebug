@@ -1,8 +1,8 @@
 {
-	"name": "Xdebug helper",
-	"description": "Easy debugging, profiling and tracing extension for Xdebug",
-	"version": "1.0.6",
-	"author": "Brian Gilbert",
+	"name": "Ydebug",
+	"description": "Php debugging",
+	"version": "1.0.0",
+	"author": "Yann Red",
 
 	"manifest_version": 2,
 	"minimum_chrome_version": "20",
@@ -31,26 +31,29 @@
 	} ],
 	"background": {
 		"scripts": [ "background.js" ]
-//	,
-//		"persistent": false
 	},
 
 	"commands": {
 		"_execute_browser_action": {
 			"suggested_key": {
-				"default": "Ctrl+Shift+X",
-				"windows": "Ctrl+Shift+X",
+				"default": "Alt+F2",
+				"windows": "Alt+F2",
 				"mac": "Command+Shift+X"
 			},
 			"description": "Open popup to toggle state"
 		},
 		"toggle_debug_action": {
 			"suggested_key": {
-				"default": "Alt+Shift+X",
-				"windows": "Alt+Shift+X",
+				"default": "Alt+F1",
+				"windows": "Alt+F1",
 				"mac": "Alt+Shift+X"
 			},
 			"description": "Toggle between the debug states"
 		}
-	}
+	},
+    "browser_specific_settings": {
+      "gecko": {
+        "id": "mail@it.yann.red"
+      }
+    }
 }

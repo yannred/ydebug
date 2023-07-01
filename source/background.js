@@ -137,7 +137,7 @@ function updateIcon(status, tabId)
 	if (status == 1)
 	{
 		title = "Debugging enabled";
-		image = "images/bug-green.svg";
+		image = "images/bug-red.png";
 	}
 	else if (status == 2)
 	{
